@@ -9,6 +9,12 @@ The project integrates with **Binance Agent OS through MCP** and uses **Binance 
 
 ---
 
+## 🚀 Live Demo
+
+Try Spider AI Agent here:
+
+https://spider-ai-agent.vercel.app/
+
 ## 🚀 Key Features
 
 ### 📊 Real-Time Market Data
