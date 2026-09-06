@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const BASE_URLS = [
+  "https://data-api.binance.vision",
+  "https://api-gcp.binance.com",
   "https://api.binance.com",
   "https://api1.binance.com",
   "https://api2.binance.com",

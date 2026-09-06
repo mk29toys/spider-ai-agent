@@ -1,5 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
-const BASE_URLS = [ "https://api.binance.com", "https://api1.binance.com", "https://api2.binance.com", "https://api3.binance.com", "https://api4.binance.com", ];
+const BASE_URLS = [
+  "https://data-api.binance.vision",
+  "https://api-gcp.binance.com",
+  "https://api.binance.com",
+  "https://api1.binance.com",
+  "https://api2.binance.com",
+  "https://api3.binance.com",
+  "https://api4.binance.com",
+];
 const ALLOWED_SYMBOLS = [ "BTCUSDT", "ETHUSDT", "BNBUSDT", "SOLUSDT", "XRPUSDT", ];
 async function fetchFromBinance(path: string) { let lastError: unknown = null;
 for (const baseUrl of BASE_URLS) { try { const response = await fetch(`${baseUrl}${path}`, { cache: "no-store", });
